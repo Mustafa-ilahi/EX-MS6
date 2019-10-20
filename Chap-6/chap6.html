@@ -4,6 +4,7 @@
     </head>
     <body>
         <h1>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Tables</h1>
+        <hr />
         <h2>Basic Table Structure</h2>
         <table>
             <tr>
@@ -27,6 +28,7 @@
                <td>Nine</td>
            </tr>
         </table>
+        <hr />
         <h2>Table Heading</h2>
         <table>
             <tr>
@@ -44,6 +46,79 @@
                     <td>$300</td>
                     <td>$900</td>
                 </tr>
+        </table>
+        <hr />
+        <h2>Spanning Columns</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>9:00am</th>
+                <th>10:00am</th>
+                <th>11:00am</th>
+                <th>12:00am</th>
+            </tr>
+            <tr>
+                <th scope="row">Monday</th>
+                <td colspan="2">Geography</td>
+                <td>Calculus </td>
+                <td>LA&DE</td>
+            </tr>
+            <tr>
+                <th scope="row">Tuesday</th>
+                <td colspan="3">Gym</td>
+                <td>Cricket</td>
+            </tr>
+        </table>
+        <hr />
+        <h2>Spanning Rows</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th scope="col">ABC</th>
+                <th scope="col">BBN</th>
+                <th scope="col">CNN</th>
+            </tr>
+            <tr>
+                <th>6pm-7pm</th>
+                <td rowspan="2">Movie</td>
+                <td>Comedy</td>
+                <td>News</td>
+            </tr>
+            <tr>
+                <th>7pm-8pm</th>
+                <td>Sport</td>
+                <td>Current Affair</td>
+            </tr>
+        </table>
+        <hr />
+        <h2>Long Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>Date</td>
+                    <td>Income</td>
+                    <td>Expenditure</td>
+                </tr>
+                <tbody>
+                    <tr>
+                        <th>25<sup>th</sup>January</th>
+                        <td>300</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                            <th>2<sup>nd</sup> January</th>
+                            <td>285</td>
+                            <td>48</td>
+                            </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>7824</td>
+                        <td>1241</td>
+                    </tr>
+                </tfoot>
+            </thead>
         </table>
     </body>
 </html>
