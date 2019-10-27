@@ -4,6 +4,7 @@
     </head>
     <body>
         <h1 align="center">Forms</h1>
+        <hr />
         <h2>Text Input:</h2>
         <form>
             <p>Username: 
@@ -14,12 +15,12 @@
                 <input type="password" name="password" maxlength="30"/>
             </p>
         </form>
-        <h2>Textarea</h2>
+        <h2>Textarea:</h2>
         <form>
             <p>What did you think of this gig?</p>
-            <textarea name="comments" cols="30" rows="4">Enter your comments...</textarea>
+            <textarea name="comments" cols="30" rows="4" placeholder="Enter your comments..."></textarea>
         </form> 
-        <h2>Radio Button</h2>
+        <h2>Radio Button:</h2>
         <form>
             <p>Please select your gender:
             <input type="radio" name="gender" value="male"/>Male
@@ -27,7 +28,7 @@
             <input type="radio" name="gender" value="other"/>Other
             </p>
         </form>
-        <h2>Checkbox</h2>
+        <h2>Checkbox:</h2>
         <form>
             <p>
                 Please select your favourite dishes:
@@ -38,7 +39,7 @@
                 <input type="checkbox" name="dishes" value="Biryani"/>Biryani
             </p>
         </form>
-        <h2>Drop down list</h2>
+        <h2>Drop down list:</h2>
         <form>
             <p>Which device do you use?</p>
             <select name="device">
@@ -48,11 +49,88 @@
                 <option value="oppo">Oppo</option>
             </select>
         </form>
-        <h2>File Input Box</h2>
+        <h2>File Input Box:</h2>
         <form method="post">
             <p>Upload your file:</p>
             <input type="file" name="user-file" />
             <input type="submit" value="Upload"/>
+        </form>
+        <h2>Submit Button:</h2>
+        <form>
+            <p>Subscribe to our email list:</p>
+            <input type="text" name="email"/>
+            <input type="submit" name="subscribe" value="Subscribe"/>
+            <h2>To Create Button</h2>
+            <button>Add</button>
+        </form>
+        <h2>Labelling Form Controls:</h2>
+        <form>
+            <label>Username: 
+                <input type="text" name="username"/>
+            </label>
+            <br />
+            Gender:
+            <input type="radio" value="Male" name="gender"/>
+            <label for="Male">Male</label>
+            <input type="radio" value="Female" name="gender"/>
+            <label for="Female">Female</label>
+        </form>
+        <h2>Grouping form elements:</h2>
+        <form>
+            <fieldset>
+                <legend>Contact Details</legend>
+                <label>
+                    Email:<br />
+                    <input type="email" name="email"/>
+                </label>
+                <br />
+                <label>
+                    Password:<br />
+                    <input type="password" name="password"/>  
+                </label>
+                <br />
+                <label>
+                    Mobile:<br />
+                    <input type="text" name="mobile"/>
+                </label>
+                <br />
+                <br />
+                <button> Submit</button>
+            </fieldset>
+        </form>
+        <h2>Form Validation:</h2>
+        <form>
+           
+            <label for="email">Email:
+                <br />
+                <input type="email" name="email" required="required"/>
+            </label>
+            <br />
+            <label for="password">Password:
+                <br/>
+                <input type="password" name="password" required="required"/>
+            </label>
+                <input type="submit" name="submit"/>
+        </form>
+        <h2>Date Input</h2>
+        <form>
+            <label for="dob">Date of Birth:
+                <input type="date" name="dob"/>
+                <input type="submit" name="submit"/>
+            </label>
+        </form>
+        <h2>Email & Url Input:</h2>
+        <form>
+            <p>Please enter your Email:</p>
+            <input type="email" name="email"/>
+            <p>Please enter website address:</p>
+            <input type="url" name="website"/>
+            <input type="submit" name="submit"/>
+        </form>
+        <h2>Search Input:</h2>
+        <form>
+            <input type="search" name="search" placeholder="Enter Keyword"/>
+            <button>Search</button>
         </form>
     </body>
 </html>
