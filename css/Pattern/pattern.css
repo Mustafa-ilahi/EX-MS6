@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(113, 184, 144);
+}
+header{
+    background-color: #9382BA;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+    padding: 1%;
+    z-index: 1;
+    letter-spacing: 6px;
+    
+}
+#heading{
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+#foot{
+    background-color: #9382BA;
+    position: fixed;
+    z-index: 2;
+    height: 20px;
+    width: 100%;
+    padding: 2%;
+    bottom: 0;;
+}
+.para{
+    text-align: center;
+}
+#fix-button{
+    position: fixed;
+    top: 480px;
+    z-index: 3;
+    left: 1392px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 35px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(2, 69, 92);
+    padding: 7px;
+    letter-spacing: 1px;
+}
+#fix-button:hover{
+    background-color: rgb(56, 158, 192);
+    color: white;
+}
+
+#parent{
+    position: relative;
+    background-color: rgb(113, 184, 144);
+    height: 480px;
+    top: 45px;
+}
+#firstDiv{
+    position: absolute;
+    background-color: red;
+    top: 84px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    left: 634px;
+    opacity: 0.6;
+}
+#secDiv{
+    position: absolute;
+    background-color: green;
+    width: 140px;
+    height: 140px;
+    top: 83px;
+    border-radius: 50%;
+    left: 772px;
+    opacity: 0.8;
+}
+#thirdDiv{
+    position: absolute;
+    background-color: yellow;
+    width: 140px;
+    height: 140px;
+    top: 170px;
+    border-radius: 50%;
+    left: 698px;
+    opacity: 0.8;
+}
+#fourthDiv{
+    position: absolute;
+    background-color: blue;
+    width: 140px;
+    height: 140px;
+    top: 257px;
+    border-radius: 50%;
+    left: 769px;
+    opacity: 0.5;
+}
+#fifthDiv {
+    position: absolute;
+    background-color: orangered;
+    width: 140px;
+    height: 140px;
+    top: 257px;
+    border-radius: 50%;
+    left: 630px;
+    opacity: 0.7;
+}
+#sixthDiv{
+    position: absolute;
+    background-color: purple;
+    width: 140px;
+    height: 140px;
+    top: 179px;
+    border-radius: 50%;
+    left: 569px;
+    opacity: 0.7;
+}
+#seventhDiv{
+    position: absolute;
+    background-color: greenyellow;
+    width: 140px;
+    height: 140px;
+    top: 326px;
+    border-radius: 50%;
+    left: 700px;
+    opacity: 0.84;
+}
+#eightDiv{
+    position: absolute;
+    background-color: hotpink;
+    width: 140px;
+    height: 140px;
+    top: 10px;
+    border-radius: 50%;
+    left: 697px;
+    opacity: 0.8;
+}
+#nineDiv{
+    position: absolute;
+    background-color: aqua;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    top: 170px;
+    left: 827px;
+    opacity: 0.6;
+}
