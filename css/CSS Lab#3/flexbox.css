@@ -1,0 +1,187 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 6px solid #45B6E6;
+}
+#main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D0F9F0;
+    height: 98px;
+    border: 6px solid #F3BB6F;
+}
+
+#logo{
+    background-color: #C6C7E5;
+    font-size: 18px;
+    padding: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 35px;
+    width: 94px;
+    text-align: center;
+    margin-left: 49px;
+    margin-top: 13px;
+}
+
+#products{
+    display: flex;
+    background-color: #DA937A;
+    font-size: 18px;
+    padding: 23px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: auto;
+    height: 27px;
+    width: 89px;
+    text-align: center;
+    margin-right: 140px;
+    margin-top: 12px;
+}
+
+#team{
+    margin-right: 39px;
+    background-color: #76DFDE;
+    font-size: 18px;
+    padding: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 35px;
+    width: 54px;
+    margin-left: -140px;
+    margin-top: 13px;
+}
+
+#chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 456px;
+    width: 64%;
+    border: 6px solid #45B6E6;
+    background-color: #D0F9F0;
+}
+
+
+#lisa{
+    display: flex;
+    height: 90px;
+    width: 84%;
+    border: 2px solid #45B6E6;
+    margin-right: 1px;
+    color: blueviolet;
+}
+
+#david{
+    display: flex;
+    height: 90px;
+    width: 84%;
+    border: 2px solid #45B6E6;
+    margin-right: 1px;
+    color: blueviolet;
+}
+
+#lisa-reply{
+    display: flex;
+    height: 90px;
+    width: 84%; 
+    border: 2px solid #45B6E6;
+    margin-right: 1px;
+    color: blueviolet;
+}
+
+img{
+    height: 84px;
+    width: 11%;
+}
+
+#lis{
+    font-weight: bold;
+}
+
+#david-img{
+    order: 1;
+}
+
+#dav{
+    font-weight: bold;
+}
+
+#para{
+    margin-left: 559px;
+}
+
+#main-box{
+    display: flex;
+    background-color: papayawhip;
+    height: 456px;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #45B6E6;
+    background-color: #D0F9F0;
+}
+ 
+#text{ 
+    display: flex;
+    background-color: #76DFDE;
+    height: 63px;
+    width: 19%;
+    padding: 11px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#all-content{
+    display: flex;
+}
+
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    height: 121px;
+    border: 6px solid #45B6E6;
+    background-color: #D0F9F0;
+}
+
+#contact{
+    background-color: #DA937A;
+    font-size: 18px;
+    padding: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 30px;
+    width: 10%;
+    text-align: center;
+}
+#Career{
+    background-color: #76DFDE;
+    font-size: 18px;
+    padding: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 21%;
+    text-align: center;
+    height: 30px;
+}
+
+#about{
+    background-color: #58D68D;
+    font-size: 18px;
+    padding: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 31px;
+    width: 10%;
+    text-align: center;
+}

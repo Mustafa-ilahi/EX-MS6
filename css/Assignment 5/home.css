@@ -1,0 +1,512 @@
+input{
+    position: relative;
+    left: 303px;
+    width: 320px;
+    height: 40px;
+    top: -32px;
+}
+
+body{
+    
+    width: 272px;
+    margin: 0%;
+    padding: 0%;
+    background-color: #F9F9F9;
+    
+}
+
+#search{
+    position: relative;
+    top: 9px;
+    left: 181px;
+    background-color: white;
+    width: 1163px;
+}    
+
+#solution{
+    position: relative;
+    top: -60px;
+    left: 904px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    width: 73px;
+}
+
+#solution:hover{
+    color: #37a000;
+}
+
+#login{
+    position: relative;
+    top: -75px;
+    left: 1029px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    width: 45px;
+}
+
+#login:hover{
+    color: #37a000;
+}
+
+#signup{
+    position: relative;
+    top: -89px;
+    left: 1122px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    width: 50px;
+}
+
+#signup:hover{
+    color: #37a000;
+}
+
+#postjob{
+    position: fixed;
+    top: 17px;
+    left: 1226px;
+    width: 110.4px;
+    height: 29.8px;
+    color: white;
+    background-color: #37a000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 18px 6px;
+    font-weight: bold;
+    font-size: 13px;
+    border: 0px;
+    border-radius: 1px;
+}
+
+#postjob:hover{
+    background-color: #1E7744;
+}
+ header{
+    position: fixed;
+    width: 99.5%;
+    height: 9ch;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 0 1px 6px rgba(62, 74, 73, 0.24);
+
+} 
+
+#web-dev{
+    position: relative;
+    top: 45px;
+    left: 190px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 55px;
+}
+
+#mob-dev{
+    position: relative;
+    top: 30px;
+    left: 299px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 66px;
+}
+
+#design{
+    position: relative;
+    top: 14px;
+    left: 426px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 43px;
+}
+
+#writing-nav{
+    position: relative;
+    top: 0px;
+    left: 531px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 43px;
+}
+
+#admin-supp{
+    position: relative;
+    top: -15px;
+    left: 632px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 90px;
+}
+
+#custom-service{
+    position: relative;
+    top: -31px;
+    left: 779px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 105px;
+}
+
+#marketing-nav{
+    position: relative;
+    top: -47px;
+    left: 938px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 60px;
+}
+
+#accounting{
+    position: relative;
+    top: -62px;
+    left: 1065px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 65px;
+}
+
+#categories{
+    position: relative;
+    top: -76px;
+    left: 1202px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 111px;
+}
+
+#backg{
+    background-color: #F9F9F9;
+    height: 40px;
+    width: 138%;
+    position: relative;
+    top: 70px;
+}
+
+#main{
+    position: relative; 
+    top: -62px;
+}
+
+#get-started{
+    position: absolute;
+    top: 385px;
+    left: 120px;
+    width: 120.4px;
+    height: 38.8px;
+    color: white;
+    background-color: #37a000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 18px 6px;
+    font-weight: bold;
+    font-size: 13px;
+    border: 0px;
+    border-radius: 1px;
+}
+
+#get-started:hover{
+    background-color: #1E7744;
+}
+
+#heading{
+    position: relative;
+    top: -399px;
+    left: 104px;
+    color: white;
+    width: 400px;
+}
+
+#para{
+    color: white;
+    position: relative;
+    top: -411px;
+    left: 107px;
+    width: 372px;
+}
+
+#get-enterprise{
+    position: absolute;
+    top: 386px;
+    left: 255px;
+    width: 124.4px;
+    height: 37.8px;
+    color: #37a000;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 18px 6px;
+    font-weight: bold;
+    font-size: 13px;
+    border: 0px;
+    border-radius: 1px;
+}
+
+#get-enterprise:hover{
+    background-color: #37a000;
+    color: white;
+}
+
+#field{
+    width: 150px;
+}
+
+#supScript{
+    font-size: 9px;
+}
+
+#head3{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -189px;
+    left: 187px;
+}
+
+#dev-img{
+    position: relative;
+    width: 262.5px;
+    height: 128px;
+    top: -163px;
+    left: 187px;
+    box-shadow: 0 1px 6px rgb(0, 0, 0);
+}
+
+#dev{
+    position: relative;
+    top: -166px;
+    left: 188px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6%;
+    text-align: center;
+    width: 229px;
+    height: 29px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+ 
+#des-creative-img{
+    position: relative;
+    top: -357px;
+    left: 483px;
+    width: 262.5px;
+    height: 128px;
+    box-shadow: 0 1px 6px rgb(0, 0, 0);
+}
+
+#des-creative{
+    position: relative;
+    top: -360px;
+    left: 484px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6%;
+    text-align: center;
+    width: 229px;
+    height: 29px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+#writing-image{
+    position: relative;
+    width: 262.5px;
+    height: 128px;
+    top: -550px;
+    left: 778px;
+    box-shadow: 0 1px 6px rgb(0, 0, 0);
+}
+
+#writing{
+    position: relative;
+    top: -553px;
+    left: 779px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30px;
+    height: 34px;
+    padding: 6%;
+    text-align: center;
+    width: 229px;
+    height: 29px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+#marketing-img{
+    position: relative;
+    width: 262.5px;
+    height: 128px;
+    top: -744px;
+    left: 1075px;
+    box-shadow: 0 1px 6px rgb(0, 0, 0);
+}
+
+#marketing{
+    position: relative;
+    top: -746px;
+    left: 1076px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6%;
+    text-align: center;
+    width: 229px;
+    height: 29px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35); 
+}
+
+#admin-support-img{
+    position: relative;
+    width: 262.5px;
+    height: 128px;
+    top: -721px;
+    left: 186px;
+    box-shadow: 0 1px 6px rgb(0, 0, 0);
+}
+
+#admin-support{
+    position: relative;
+    top: -724px;
+    left: 187px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6%;
+    text-align: center;
+    width: 229px;
+    height: 29px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+#custom-service-img{
+    position: relative;
+    width: 262.5px;
+    height: 128px;
+    top: -915px;
+    left: 484px;
+    box-shadow: 0 1px 6px rgb(0, 0, 0);
+}
+
+#custom-service-text{
+    position: relative;
+    top: -918px;
+    left: 485px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;
+    padding: 6%;
+    text-align: center;
+    width: 229px;
+    height: 29px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+#data-science-img{
+    position: relative;
+    width: 262.5px;
+    height: 128px;
+    top: -1108px;
+    left: 780px;
+    box-shadow: 0 1px 6px rgb(0, 0, 0);
+}
+
+#data-science{
+    position: relative;
+    top: -1110px;
+    left: 781px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6%;
+    text-align: center;
+    width: 229px;
+    height: 29px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+#eng-archi-img{
+    position: relative;
+    width: 262.5px;
+    height: 128px;
+    top: -1301px;
+    left: 1076px;
+    box-shadow: 0 1px 6px rgb(0, 0, 0);
+}
+
+#eng-archi-text{
+    position: relative;
+    top: -1303px;
+    left: 1077px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6%;
+    text-align: center;
+    width: 229px;
+    height: 29px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+#para2{
+    position: relative;
+    top: -1239px;
+    left: 596px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    width: 500px;
+}
+
+a{
+    color:#37A000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Trusted-text{
+    position: relative;
+    top: 31px;
+    left: 652px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;
+    padding: 0px 0px 0px 10px;
+    width: 200px;
+}
+
+#microsoft-image{
+    position: relative;
+    top: 36px;
+    left: 195px;
+}
+
+#airbnb{
+    position: relative;
+    top: 39px;
+    left: 272px;
+}
+
+#logo{
+    position: relative;
+    top: 36px;
+    left: 354px;
+}
+
+#automatic{
+    position: relative;
+    top: 38px;
+    left: 454px;
+}
+
+#bissell{
+    position: relative;
+    top: 35px;
+    left: 554px;
+}
+
+#coty{
+    position: relative;
+    top: 39px;
+    left: 653px;
+}
+
+#foot{
+    background-color: white;
+    height: 167px;
+    width: 557%;
+    position: relative;
+    top: -1202px;
+}
+
+#search-icon{
+    position: fixed;
+    top: 7px;
+    left: 290px;
+    height: 58px;
+    width: 59px;
+    z-index: 1;
+}
