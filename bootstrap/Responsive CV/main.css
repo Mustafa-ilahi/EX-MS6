@@ -1,0 +1,71 @@
+.card-body{
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: #C0D4C9;
+}
+
+.card-text{
+    float: right;
+}
+
+#qualification {
+    width: 100%;
+    /* padding-right: 25px; */
+    background-color: #C0D4C9;
+}
+
+#heading{
+    text-align: center;
+    letter-spacing: 7px;
+    background-color: #000000;
+    color: white;
+}
+.card-header{
+    text-align: center;
+    letter-spacing: 7px;
+    background-color: #000000;
+    color: white;
+}
+
+#skills {
+    width: 100%;
+    /* padding-left: 8px; */
+    background-color: #C0D4C9;
+}
+
+#heading2{
+    text-align: left;
+    letter-spacing: 7px;
+    background-color: #000000;
+    color: white;
+}
+
+#experience {
+    width: 100%;
+        /* padding-left: 37px; */
+        background-color: #C0D4C9;
+        /* margin-right: 128px; */
+    }
+#heading3{
+    text-align: center;
+    letter-spacing: 7px;
+    background-color: #000000;
+    color: white;
+}
+
+/* #main2{
+    display: flex;
+    justify-content: space-around;
+
+} */
+.card-header {
+    background-color: #000000;
+    color: white;
+}
+
+body{
+    background-color: #C0D4C9;
+    /* overflow-y: hidden; */
+}
+
+html, body{overflow-x:hidden;}

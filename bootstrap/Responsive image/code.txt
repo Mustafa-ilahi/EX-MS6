@@ -1,0 +1,24 @@
+ <div class="container-fluid">
+        <div class="card text-center">
+            <div class="card-header" style="letter-spacing: 4px;">
+                <b>CURRICULUM VITAE</b>
+            </div>
+        
+            <div class="row" style="background-color: palegoldenrod;">
+        <!-- <div class="col-xl-12 col-lg-12 " id="body" style="display: flex;"> -->
+                <div class="col-xl-2 col-lg-8 col-md-6 col-sm-4 col-xs-10">
+                <img src="./images/im.jpg" alt="Profile-picture" height="200px" width="200px" class="img-responsive" style="border-radius:100px"/>
+                </div>
+            <div class="card-body col-xl-10 col-lg-4 col-md-6 col-sm-8 col-xs-2">
+          <div class="card-text">
+              <br /> 
+              <h5>MY PROFILE</h5>
+              <h2>MUSTAFA ILAHI</h2>
+              <p><img src="./images/gmail-icon2.jpg" height="15px" width="35px"/> <b>Email:</b> mustafailahi586@gmail.com
+            <br /><img src="./images/phone-icon2.jpg" height="20px" width="29px"style="border-radius:13px;"/> &nbsp;<b>Contact Number:</b> 0310-1030094
+            <br /><img src="./images/map-icon2.jpg" height="25px" width="40px" style="border-radius:8px;"/><b>Current Resistance: </b> C-3/I Bridge View Appartment F.B.Area Block-1 Sharifabad, Karachi.</p>
+        </div>       
+      </div>
+    </div>
+      <!-- </div> -->
+     </div>
