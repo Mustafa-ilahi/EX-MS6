@@ -1,0 +1,9 @@
+num = 5
+++num + num-- + --num + --num + num == 22 ?
+ 6    +   6    +    4  +    3  +  3 =  22
+ Here,
+1) ++num = 6 (because preincrement operator adds 1 on num variable).
+2)  num-- = 6 (because postdecrement operator subtract 1 on num variable but not this step on next step).
+3)  --num = 4 (because in step-2 there is postdecrement thatswhy we have the num value is 5 and here its a predecrement so that num subtract 1 value).
+4) --num = 3 (because now the value of num is 4 but there is a predecrement operator so that the value of num is 3).
+5) num = 3 (because now num value is 3).
