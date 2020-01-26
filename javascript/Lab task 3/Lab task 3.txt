@@ -1,0 +1,212 @@
+*** TASK-1 ***
+
+var num=0;
+for(var i=1;i<=100;i++)
+{
+    num +=i;
+    document.write("the sum of number is:"+num);
+    document.write("<br />");
+}
+
+
+*** TASK-2 ***
+
+var num;
+document.write("A.counting is : ");
+for(var i=1;i<=15;i++)
+{
+    document.write(" "+i);
+}
+document.write("<br />")
+document.write("B. Reverse counting is : ");
+for(var j=10;j>=1;j--)
+{
+    document.write(" "+j);
+}
+document.write("<br />")
+document.write("C. Even counting is : ");
+for(var k=0;k<=10;k++)
+{
+    document.write(" "+(k+k));
+}
+document.write("<br />")
+document.write("D. ODD counting is : ");
+var nuum=1;
+for(var l=1;l<=10;l++)
+{
+    ++nuum;
+    document.write(" "+(nuum+l));
+}
+document.write("<br />")
+document.write("E. Series is : ");
+for(var k=1;k<=10;k++)
+{
+    document.write(" "+(k+k));
+    document.write("k");
+}
+
+
+
+*** TASK-3 ***
+
+var color = prompt("what color you wants to add in a color array : ");
+document.write("The updated array list is(Color add in Beginning): "+(colourNames.unshift(color)));
+document.write("<br />");
+document.write(colourNames);
+document.write("<br />");
+document.write("<br />");
+var colorr = prompt("what color you wants to add at last in a color array : ");
+document.write("The updated array list is(Color add in Beginning): "+(colourNames.push(colorr)));
+document.write("<br />");
+document.write(colourNames);
+document.write("<br />");
+document.write("<br />");
+var colorrr = prompt("what color you wants to add in a beginning color array : ");
+var colorrrr = prompt("Add one more color please : ");
+document.write("The updated array list is(Color add in Beginning): "+(colourNames.unshift(colorrr,colorrrr)));
+document.write("<br />");
+document.write(colourNames);
+document.write("<br />");
+document.write("<br />");
+alert("deleted from beginning item is :");
+document.write("The updated array list is(Color delelte in Beginning): "+(colourNames.shift(colorrrr)));
+document.write("<br />");
+document.write(colourNames);
+document.write("<br />");
+document.write("<br />");
+alert("deleted from last item is :");
+document.write("The updated array list is(Color delelte in last): "+(colourNames.pop(colorrrr)));
+document.write("<br />");
+document.write(colourNames);
+document.write("<br />");
+document.write("<br />");
+var AddRandomColor = prompt("Which position you wants to add a colorName : ");
+var Colors = prompt("what color you wants to add : ");
+document.write("Randomly Add color is : "+(colourNames.splice(AddRandomColor,"0",Colors)));
+document.write("<br />");
+document.write(colourNames);
+document.write("<br />");
+document.write("<br />");
+var delColor = prompt("Which position you wants to delete a colorName : ");
+var colordell = prompt("how many colors you wants to delete : ");
+document.write("deleting color is : "+(colourNames.splice(delColor,colordell,0)));
+document.write("<br />");
+document.write(colourNames);
+document.write("<br />");
+document.write("<br />");
+
+
+
+
+*** TASK-4 ***
+for(var i=1; i<=5; i++)
+{
+    for(var j=1; j<=5; j++)
+    {
+        if(j<=6-i)
+        {
+            document.write(""+j);
+            
+        }
+        else{
+            document.write(" ");
+        }
+    }
+    document.write("<br />");
+}
+
+
+
+
+*** TASK-5 ***
+
+var cabs =  ["careem", "uber", "bykea"];
+for(var i=0; i<=2; i++)
+{
+    for(var j=0; j<=2; j++)
+    {
+        if(cabs[i]!=cabs[j])
+        {
+            document.write(cabs[i]+ " and " + cabs[j] + " are good services ");
+            document.write("<br />");
+        }
+    }
+}
+
+
+
+*** TASK-6 ***
+
+var no = 123;
+var string = "Mustafa";
+var bool = true;
+var a;
+var obj = {name: "mustafa", age: "19"};
+function typeCheck(toCheck)
+{
+    return alert(typeof toCheck);
+}
+typeCheck(no);
+typeCheck(string);
+typeCheck(bool);
+typeCheck(a);
+typeCheck(obj);
+typeCheck(typeCheck);
+
+
+
+*** TASK-7 ***
+
+var A = ["cake", "apple pie", "cookie" , "chips", "patties"];
+var userInput = prompt("Enter any item").toLowerCase();
+for(var i=0; i<A.length; i++)
+{
+    if(userInput == A[i])
+    {
+        var a = 0;
+    }
+}
+if(a==0)
+{
+    alert("Item is present");
+}
+else
+{
+    alert("Item is not present");
+    
+}
+
+
+
+*** TASK-8 ***
+
+var str = "The quick brown fox jumps over the lazy dog";
+var x,j=0;
+for(x=0; x<str.length; x++)
+{
+    if((str.charAt(x) == "t" || str.charAt(x) == "T") && str.charAt(x+1) == "h" && str.charAt(x+2) == "e")
+    {
+        j=j+1;
+    }
+}
+document.write(j);
+
+
+
+*** TASK-9 ***
+
+var userInput = prompt("Enter a string to convert in lowercase");
+var lowerCase = userInput.toLowerCase();
+alert(userInput + " in lowercase " + lowerCase);
+
+
+
+
+*** TASK-10 ***
+
+var string1 = "Hyderabad";
+var string2 = "Islam";
+var string3 = string1.slice(5,9);
+alert(string2 + string3);
+
+
