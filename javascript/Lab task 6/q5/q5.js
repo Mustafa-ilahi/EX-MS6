@@ -1,3 +1,8 @@
 function doHomeWork(){
-    setTimeout(alert("starting work"),500);
+    alert("Starting Work");
 }
+doHomeWork();
+function callBack(){
+    alert("Task Done!");
+}
+setTimeout(callBack,500);

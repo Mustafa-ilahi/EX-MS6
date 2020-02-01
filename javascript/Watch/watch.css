@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+
+#Watch{
+    text-align: center;
+    font-size: 220px;
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border:5px solid white;
+}
+
+#hour{
+    color: whitesmoke;
+    position: relative;
+    top: -194px;
+    left: 302px;
+    width: 20px;
+}
+#min{
+    color: whitesmoke;
+    position: relative;
+    top: -232px;
+    left: 608px;
+    width: 20px;
+}
+#sec{
+    color: whitesmoke;
+    position: relative;
+    top: -272px;
+    left: 916px;
+    width: 20px;
+}
