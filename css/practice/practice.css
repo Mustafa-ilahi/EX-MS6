@@ -1,4 +1,13 @@
-.all{
-    color: black;
-    text-decoration: none;
+#main{
+    border: 2px solid black;
+    height: 250px;
+    width: 350px;
+}
+img{
+    height: 250px;
+    width: 350px;
+}
+img:hover{
+    height: 250px;
+    width: 370px;
 }
