@@ -3,6 +3,11 @@ body{
     overflow-x: hidden;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 img{
     position: relative;
     left: 558px;
@@ -15,7 +20,7 @@ h2{
 }
 
 div{
-    background-color:  #6C46D8;
+    background-color:  #6B5ACD;
     color: white;
 }
 
